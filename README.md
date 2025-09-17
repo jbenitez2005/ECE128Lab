@@ -48,6 +48,3 @@ After running synthesis/implementation, use Vivado reports to compare:
 Record results for each coding style (structural, dataflow, behavioral) and compare efficiency.
 
 ---
-
-## 🔗 Repository Link
-👉 `https://github.com/your-username/ece128-lab1-mux8to1`
