@@ -7,10 +7,11 @@ The MUX was tested in simulation using Vivado, and then implemented on the **Bas
 
 ## Simulation Instructions
 1. Open **Vivado**.
-2. Create a new project and add the Verilog source files from `src/` and the testbench from `tb/`.
-3. Set the testbench as the **Simulation Top**.
-4. Run **Behavioral Simulation**.
-5. Use the waveform viewer to confirm that the selected input (`D0`–`D7`) is routed correctly to the output `Y` based on the select lines (S2 S1 S0).
+2. Create a new project and add the Verilog files, put the non tb ones in the design sources aand the testbench from in the simulation sources.
+3. Update your constraints file as necessary for corresponding inputs
+4. Set the testbench as the **Simulation Top**.
+5. Run **Behavioral Simulation**.
+6. Use the waveform viewer to confirm that the selected input (`D0`–`D7`) is routed correctly to the output `Y` based on the select lines (S2 S1 S0).
 
 
 ## FPGA Implementation Instructions
