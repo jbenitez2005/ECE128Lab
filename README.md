@@ -10,10 +10,10 @@ The MUX was tested in simulation using Vivado, and then implemented on the **Bas
 2. Create a new project and add the Verilog source files from `src/` and the testbench from `tb/`.
 3. Set the testbench as the **Simulation Top**.
 4. Run **Behavioral Simulation**.
-5. Use the waveform viewer to confirm that the selected input (`D0`–`D7`) is routed correctly to the output `Y` based on the select lines (`S2 S1 S0`).
+5. Use the waveform viewer to confirm that the selected input (`D0`–`D7`) is routed correctly to the output `Y` based on the select lines (S2 S1 S0).
 
 
-## 💡 FPGA Implementation Instructions
+## FPGA Implementation Instructions
 1. In Vivado, set the desired design file (e.g., `mux8to1_behavioral.v`) as the **Top Module**.
 2. Add the `constraints/basys3.xdc` file for pin mappings:
    - Switches `SW[7:0]` → Data inputs `D0–D7`
